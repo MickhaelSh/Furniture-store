@@ -1,0 +1,9 @@
+:root {
+  --main-green-color: rgb(123, 181, 124);
+  --main-black-color: rgb(51, 51, 51);
+  --main-gray-color: rgb(117, 113, 113);
+  --lighter-gray-color: rgb(169, 169, 169);
+  --lightest-gray-color: rgb(247, 245, 246);
+  --main-white-color: rgb(255, 255, 255);
+  --main-font: 'Poppins', sans-serif;
+}

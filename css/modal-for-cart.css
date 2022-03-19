@@ -1,0 +1,287 @@
+.lock {
+  overflow: hidden;
+}
+.modal-basket-container.active {
+  position: fixed;
+  z-index: 12;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow-y: scroll;
+  transition: all 0.4s ease-in-out;
+}
+.modal-basket {
+  position: absolute;
+  top: 10%;
+  display: none;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: var(--main-white-color);
+  padding: 2% 3%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  min-width: 360px;
+}
+@media screen and (min-width: 640px) {
+  .modal-basket {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .modal-basket {
+    width: 40%;
+  }
+}
+.modal-basket-container.active .modal-basket {
+  display: block;
+}
+.modal-basket-header {
+  display: flex;
+  justify-content: space-between;
+}
+.modal-basket-empty,
+.modal-basket-thanks {
+  display: none;
+}
+.modal-basket-empty.active,
+.modal-basket-thanks.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 150px 0;
+}
+.modal-basket-empty-heading .modal-basket-thanks.heading {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.modal-basket-close {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 5px;
+  cursor: pointer;
+}
+.modal-basket-products-wrapper {
+  display: none;
+}
+.modal-basket-products-wrapper.active {
+  display: block;
+}
+.modal-basket-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+.modal-basket-product-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+.modal-basket-products-title {
+  align-self: flex-start;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+.modal-basket-product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  flex: 0.8;
+}
+.modal-basket-product-quantity {
+  max-width: 75px;
+  margin: 0 30px;
+  position: relative;
+}
+.modal-basket-product-button {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 3px;
+  top: 5px;
+  border: none;
+  cursor: pointer;
+}
+.modal-basket-product-button.up {
+  right: -24px;
+  transform: rotate(-90deg);
+}
+.modal-basket-product-button.down {
+  left: -24px;
+  transform: rotate(90deg);
+}
+.modal-basket-total-price {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  font-weight: bold;
+  text-align: end;
+  width: 100%;
+}
+.modal-basket-product-delete {
+  height: 33px;
+  width: 20px;
+  border: none;
+  background-image: url('../img/trash-basket.svg');
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: 100%;
+  background-position: 50%;
+  cursor: pointer;
+}
+.modal-basket-products-heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.modal-basket-form.modal-basket-form-wraper {
+  display: none;
+}
+.modal-basket-form-wraper.active {
+  display: flex;
+  flex-direction: column;
+}
+.modal-basket-form {
+  display: flex;
+  flex-direction: column;
+}
+.modal-basket-form input {
+  font-size: 18px;
+}
+.modal-basket-form-window {
+  height: 3rem;
+  border: none;
+  background-color: var(--lightest-gray-color);
+}
+.modal-basket-form-window:focus {
+  outline-color: var(--main-green-color);
+}
+.modal-basket-form-comment {
+  height: 6rem;
+}
+.modal-form-title {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.form-name {
+  margin: 16px 0;
+  font-size: 1rem;
+}
+.modal-basket-fotm-button {
+  margin: 40px auto;
+  width: 40%;
+  border: none;
+  background-color: var(--main-green-color);
+  color: var(--main-white-color);
+  height: 60px;
+  transition: all 200ms;
+}
+.modal-basket-fotm-button:hover {
+  background-color: var(--main-black-color);
+}
+.modal-basket-form-window::placeholder {
+  font-size: 0.8rem;
+  padding-left: 1.2rem;
+  color: var(--main-gray-color);
+}
+.modal-basket-form-comment::placeholder {
+  padding-top: 1rem;
+}
+.modal-basket-product-img-container {
+  height: 100%;
+  width: auto;
+}
+.modal-basket-product-img-container img {
+  height: 100%;
+}
+.modal-basket-product-price > .product-price-text,
+.modal-basket-product-info .modal-basket-product-name .product-name-text,
+.dollar-or-uah {
+  text-align: center;
+  margin: 0 5px;
+  text-overflow: ellipsis;
+}
+.dollar-or-uah-total {
+  margin: 0 10px;
+}
+
+.modal-basket-product-price {
+  display: none;
+}
+
+.modal-basket-product-price-total {
+  display: none;
+}
+
+.modal-basket-product-price-total.active,
+.modal-basket-product-price.active {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  width: min-content;
+}
+.modal-basket-product-name {
+  height: 60px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.modal-basket-total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-basket-empty-text {
+  text-align: center;
+}
+#USD,
+#UAH {
+  display: none;
+}
+.modal-basket-checkbox {
+  background-color: var(--main-gray-color);
+  color: var(--main-white-color);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.modal-basket-checkbox label {
+  padding: 5px;
+}
+.modal-basket-checkbox label#uahl:hover {
+  background-color: var(--main-green-color);
+  border: 1px solid var(--main-green-color);
+  border-radius: 0 5px 5px 0;
+}
+.modal-basket-checkbox label#usdl:hover {
+  background-color: var(--main-green-color);
+  border: 1px solid var(--main-green-color);
+  border-radius: 5px 0 0 5px;
+}
+.modal-basket-checkbox input[type='radio']#UAH:checked + label {
+  background-color: var(--main-green-color);
+  border: 1px solid var(--main-green-color);
+  border-radius: 0 5px 5px 0;
+}
+.modal-basket-checkbox input[type='radio']#USD:checked + label {
+  background-color: var(--main-green-color);
+  border: 1px solid var(--main-green-color);
+  border-radius: 5px 0 0 5px;
+}
+.modal-basket-products-wrapper .new-arrivals-img {
+  cursor: pointer;
+}

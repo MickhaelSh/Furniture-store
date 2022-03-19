@@ -1,0 +1,50 @@
+.black-white-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+}
+@media screen and (min-width: 700px) {
+  .black-white-blocks {
+    flex-direction: row;
+  }
+}
+.black-white-blocks__white {
+  background: url('//res2.weblium.site/res/5e2f1da2c947890021c3f194/5e31af4a633eb20022a30b7e_optimized.webp')
+    10% 47.57% / cover no-repeat;
+  margin-bottom: 24px;
+}
+.black-white-blocks__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 48px 32px;
+  overflow: hidden;
+}
+.black-white-blocks__slogan {
+  font-size: 14px;
+  font-weight: 500;
+}
+.black-white-blocks__tittle {
+  font-size: 22px;
+  font-weight: 500;
+}
+.black-white-blocks__text {
+  margin-top: 0;
+  color: var(--main-gray-color);
+}
+.black-white-blocks__black {
+  background: url('https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e31b05f633eb20022a30d29_optimized.webp')
+    10% 47.57% / cover no-repeat;
+  color: var(--main-white-color);
+  margin-bottom: 24px;
+}
+.black-text {
+  color: var(--main-white-color);
+}
+.black-slogan {
+  color: var(--lighter-gray-color);
+}
+.black-anchor:hover {
+  background-color: var(--main-white-color);
+  color: var(--main-black-color);
+}

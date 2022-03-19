@@ -1,0 +1,53 @@
+.fave-finds {
+  margin: 96px auto;
+}
+.fave-finds__tittle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.fave-finds__title {
+  font-size: 38px;
+  font-weight: 500;
+}
+.fave-finds__text {
+  font-size: 18px;
+  margin-top: 0;
+}
+.fave-finds__tabs {
+  margin-top: 48px;
+  display: flex;
+  border-bottom: 1px solid var(--lighter-gray-color);
+}
+.fave-finds__tab {
+  font-size: 18px;
+  padding: 16px;
+  color: var(--lighter-gray-color);
+  cursor: pointer;
+}
+.fave-finds__tab.active {
+  color: var(--main-black-color);
+  border-bottom: 2px solid var(--main-green-color);
+}
+.fave-finds__items-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4%;
+}
+@media screen and (min-width: 700px) {
+  .fave-finds__items-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.fave-finds__item {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  margin: 32px 16px;
+  justify-content: space-between;
+}
+.fave-finds__button {
+  background-color: var(--main-white-color);
+}

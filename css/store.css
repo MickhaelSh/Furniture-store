@@ -1,0 +1,20 @@
+.store__products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 84px;
+}
+@media screen and (min-width: 700px) {
+  .store__products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 900px) {
+  .store__products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.store__products-title {
+  margin: 36px 0;
+  font-size: 24px;
+  font-weight: 700;
+}

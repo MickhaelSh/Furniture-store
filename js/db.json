@@ -1,0 +1,124 @@
+{
+  "furniture": [
+    {
+      "id": 0,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f731969f976ca694f91509d/480",
+      "name": "Aurora armchair, MDS",
+      "price": 210,
+      "category": "Armchairs",
+      "description": "This wide-backed trapezoidal chair will welcome you after or during your hard day and help you relax. It will fit into any interior and is very easy to clean. Dimensions and materials: 28' x 37' Faux suede, wood"
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f7319a4e7179bd92352ce3a/480",
+      "name": "Cloud armchair, DIX",
+      "price": 150,
+      "category": "Armchairs",
+      "description": "Simple design and vibrant turquoise color are the hallmarks of this armchair. It is versatile: you can make this armchair a striking accent in your interior or create an island of tranquility in your office. Dimensions and materials: 28' x 35' Faux suede, wood"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f7319bf5a5a2636662728ff/480",
+      "name": "Jeanine armchair, KUKO",
+      "price": 220,
+      "category": "Armchairs",
+      "description": "This is the very armchair in which you want to drown after a hard day. Wide handrails and padded back allow you to take any position in this armchair. Dimensions and materials: 28' x 35' Textile, wood"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f73194a5a5a2681072728fd/480",
+      "name": "Fusion armchair, LEXX",
+      "price": 320,
+      "category": "Armchairs",
+      "description": "It is an incredibly stylish armchair in a trendy mustard color. In it, you can recline comfortably and read a book or work on a laptop. Dimensions and materials: 25' x 32' Faux suede, steel"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f7319e4f976cad2bd9150a1/480",
+      "name": "3-piece Minimal, ARM",
+      "price": 110,
+      "category": "Lamps",
+      "description": "This 3-piece white lamp is a perfect fit for a kitchen or living room. It is a versatile lamp that looks good in any interior. Material: painted steel."
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f7319fa5a5a268c83272901/480",
+      "name": "Red drops,KUKO",
+      "price": 210,
+      "category": "Lamps",
+      "description": "Do you want to fill the room with muted red light? This lamp from one of the best design studios is perfect for you then. The pendant lamp consists of two glass lamps on cords, the height is adjustable. Materials: steel and glass."
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f731a1ae7179b07c152ce45/480",
+      "name": "Delar, Uni Studio",
+      "price": 350,
+      "category": "Lamps",
+      "description": "This unusual lamp will become a real boon for your interior! It consists of two pineapple-shaped perforated lamps. The height of the pendant lights is adjustable. Material: steel."
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f731a31e7179b01e052ce49/480",
+      "name": "Bubbles, Udion",
+      "price": 410,
+      "category": "Lamps",
+      "description": "This elegant luminaire emits diffused warm light. Consists of three pendant lamps on gold-colored mountings, the height is adjustable. Material: steel."
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f731a5a5a5a26ac4c272905/480",
+      "name": "Upi table, Landstrom",
+      "price": 90,
+      "category": "Tables",
+      "description": "This ultimate white coffee table will fit perfectly into your living room or office. The glossy surface is easy to wipe off. Dimensions and materials: 10є x 8є Plastic"
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f731a70b8b5b03ac625bfb1/480",
+      "name": "Aurora armchair, MDS",
+      "price": 110,
+      "category": "Tables",
+      "description": "This stylish small golden table will perfectly fit into your interior. Thanks to the high sides, no objects will slide off this table. Dimensions and materials: 18' x 20' Steel"
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f731a92e7179b36f652ce51/480",
+      "name": "Snitch cabinet, ARM",
+      "price": 110,
+      "category": "Tables",
+      "description": "A small and neat walnut colored bedside cabinet is made of natural wood. It fits perfectly in any bedroom. There are two shelves inside. Dimensions and materials: 16' x 19' Walnut wood"
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f731ab65a5a26b660272909/480",
+      "name": "Hugo table, KUKO studio",
+      "price": 99,
+      "category": "Tables",
+      "description": "Stylish side table from one of the best design studios. Functional and minimalistic, it fits perfectly into any interior. Dimensions and materials: 18' x 25' Plastic, steel"
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480",
+      "name": "Lord armchair, Miedel Home",
+      "price": 120,
+      "category": "Best-seling",
+      "description": "Do you want to feel comfortable and hide from the bad weather? This armchair is perfect for relaxing with a book or a cup of tea. It also provides extra back support. Dimensions and materials: 28' x 38' Faux suede, wood "
+    },
+    {
+      "id": 13,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f731cb4e7179b1a6552ce5f/480",
+      "name": "Ultimate Green chair, XODO",
+      "price": 90,
+      "category": "Best-seling",
+      "description": "Simple yet functional, this chair is perfect for your minimalistic dining room. It will become a bright spot in your interior design and will awaken your appetite. Dimensions and materials: 21' x 32' Plastic"
+    },
+    {
+      "id": 14,
+      "imageUrl": "https://e-c.storage.googleapis.com/res/5f731d7be7179b3e8352ce65/480",
+      "name": "Valetta armchair, ZIX studio",
+      "price": 310,
+      "category": "Best-seling",
+      "description": "An armchair in which you will feel what real comfort is. The original design will suit both the bedroom and the living room, or even a home office. Available only in pink. Dimensions and materials: 28' x 35' Faux suede, steel"
+    }
+  ]
+}

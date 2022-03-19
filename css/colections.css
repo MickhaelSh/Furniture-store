@@ -1,0 +1,58 @@
+.collections__list {
+  margin: 96px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 700px) {
+  .collections__list {
+    flex-direction: row;
+    gap: 2%;
+  }
+}
+.collections__list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 24px 0;
+  width: 100%;
+}
+@media screen and (min-width: 700px) {
+  .collections__list-item {
+    width: 33.3%;
+  }
+}
+.collections__list-image-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 66% 0 0 0;
+}
+.collections__list-image {
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.collections__list-title {
+  font-weight: 500;
+}
+.collections__list-anchor {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+}
+.collections__list-anchor a:hover {
+  text-decoration: underline;
+}
+.collections__title-container {
+  background: url('https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e341fc418c4d700210727e5')
+    repeat center;
+  padding: 150px 0;
+  text-align: center;
+}

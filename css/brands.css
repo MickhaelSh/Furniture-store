@@ -1,0 +1,74 @@
+.brands {
+  margin: 96px auto;
+}
+.brands__carousel {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 72px 0;
+  padding: 0 12px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: var(--main-gray-color);
+  font-size: 18px;
+  font-weight: 700;
+}
+.swiper-button-prev:hover::after,
+.swiper-button-next:hover::after {
+  color: var(--main-black-color);
+  transform: scale(1.1);
+}
+.brands__carousel .swiper-button-prev {
+  left: -7px;
+}
+.brands__carousel .swiper-button-next {
+  right: -7px;
+}
+.brands__brand-container {
+  display: grid;
+  margin: 48px 0;
+  gap: 5%;
+}
+
+@media screen and (min-width: 700px) {
+  .brands__brand-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+  }
+}
+.brands__brand-img-container {
+  width: 100%;
+}
+.brands__image-container {
+  width: 100%;
+  height: 100%;
+}
+.brands__image-container img {
+  object-fit: cover;
+  height: 100%;
+}
+.brands__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media screen and (min-width: 700px) {
+  .landstrom-brand .brands__text-container {
+    order: 2;
+  }
+}
+.brands__title {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--main-gray-color);
+}
+.brands__collection-name {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+}

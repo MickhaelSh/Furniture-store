@@ -1,0 +1,27 @@
+.spring-collection {
+  background: url('//res2.weblium.site/res/5e2f1da2c947890021c3f194/5e31adf6a948e70023c38554_optimized_1920.webp')
+    fixed no-repeat 41% 52%;
+  background-size: cover;
+  margin: 96px 0;
+}
+.spring-collection .container {
+  padding: 150px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.spring-collection__empty {
+  width: 100%;
+  flex-shrink: 1.5;
+}
+.spring-collection__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.spring-collection__text {
+  font-size: 18px;
+}
+.spring-collection-button {
+  max-width: 160px;
+  height: 50px;
+}

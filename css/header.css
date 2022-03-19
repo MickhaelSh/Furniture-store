@@ -1,0 +1,112 @@
+.header {
+  background: url('../img/header-background.webp') no-repeat;
+  background-position: 55% 80%;
+  background-size: cover;
+}
+.header___top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 200px;
+  color: var(--main-black-color);
+}
+.header__img-container {
+  width: 150px;
+}
+.header__nav {
+  display: none;
+}
+@media screen and (min-width: 950px) {
+  .header__nav {
+    display: flex;
+    flex: 0.95;
+    justify-content: space-between;
+    margin-left: 10%;
+  }
+}
+.header__nav-element {
+  display: flex;
+  align-items: center;
+  color: var(--main-black-color);
+}
+.header__nav-element:hover {
+  color: var(--main-green-color);
+}
+.header__title {
+  display: flex;
+  padding-bottom: 400px;
+}
+
+.header__title-text {
+  font-size: 18px;
+}
+
+.header__empty {
+  width: 60%;
+}
+.header__button-title {
+  width: 255px;
+  height: 50px;
+  padding: 20px;
+  margin: 48px 0;
+}
+.header__burger-container {
+  top: 30px;
+  right: 20px;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  cursor: pointer;
+  z-index: 12;
+  transition: all ease 0.4s;
+  overflow: hidden;
+  background-color: var(--main-white-color);
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.header__burger-container:hover {
+  opacity: 0.9;
+}
+@media screen and (min-width: 950px) {
+  .header__burger-container {
+    display: none;
+  }
+}
+.header__burger,
+.header__burger::before,
+.header__burger::after {
+  width: 70%;
+  height: 3px;
+  background-color: var(--main-black-color);
+  position: absolute;
+  left: 15%;
+  transition: all ease 0.4s;
+}
+
+.header__burger::before {
+  content: '';
+  top: -10px;
+}
+.header__burger {
+  top: 50%;
+}
+.header__burger::after {
+  content: '';
+  top: 10px;
+}
+
+.header__burger-container.active .header__burger {
+  background-color: transparent;
+  box-shadow: none;
+}
+.header__burger-container.active .header__burger::before {
+  top: 0;
+  transform: rotate(45deg);
+  box-shadow: none;
+}
+.header__burger-container.active .header__burger::after {
+  top: 0;
+  transform: rotate(-45deg);
+  box-shadow: none;
+}
